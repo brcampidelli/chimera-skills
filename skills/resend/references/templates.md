@@ -160,7 +160,7 @@ await resend.templates.update('tmpl_abc123', { name: 'Order Confirmed' });
 await resend.templates.remove('tmpl_abc123');  // returns { deleted: true }
 ```
 
-See `fetch-all-templates.mjs` for a complete pagination loop.
+To list every template, repeat the list call with the pagination cursor from each response until no further page is returned.
 
 ### Publish
 

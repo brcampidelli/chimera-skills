@@ -8,13 +8,15 @@ metadata:
   category: apis-integrations
   categories_secondary: ai-models-agents
   tags: mcp, tools, fastmcp, typescript
-  mode: include
+  mode: adapt
   upstream_repo: anthropics/skills
   upstream_path: skills/mcp-builder
   upstream_sha: dbd4588f9e1033efb41dad4bef2f7947c8993d44
   upstream_license: Apache-2.0
-  changes: 'frontmatter only: license set to SPDX id; metadata, stage and topic added; executable/non-markdown
-    files omitted: scripts/connections.py, scripts/evaluation.py, scripts/example_evaluation.xml, scripts/requirements.txt'
+  changes: 'frontmatter (license SPDX, metadata, stage, topic); body: the ''Running Evaluations'' part
+    of reference/evaluation.md (which drove the omitted scripts/evaluation.py) replaced by a short note,
+    and SKILL.md''s bullet about the provided scripts reworded; executable/non-markdown files omitted:
+    scripts/connections.py, scripts/evaluation.py, scripts/example_evaluation.xml, scripts/requirements.txt'
 stage: build
 topic: ai-agents
 ---
@@ -248,4 +250,4 @@ Load these resources as needed during development:
   - Answer verification strategies
   - XML format specifications
   - Example questions and answers
-  - Running an evaluation with the provided scripts
+  - (Running the evaluation is left to your own harness; the upstream scripts are not vendored)

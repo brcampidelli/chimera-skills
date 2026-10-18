@@ -20,7 +20,7 @@
   ],
   "featured": false,
   "license": "Apache-2.0",
-  "mode": "include",
+  "mode": "adapt",
   "executes": {
     "pt-BR": "Instrui a buscar a documentação do MCP e dos SDKs na web.",
     "en": "Tells the agent to fetch MCP and SDK docs from the web."

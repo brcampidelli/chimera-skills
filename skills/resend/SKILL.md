@@ -31,13 +31,15 @@ metadata:
   category: email-messaging
   categories_secondary: apis-integrations
   tags: resend, email, transactional, webhooks
-  mode: include
+  mode: adapt
   upstream_repo: resend/resend-skills
   upstream_path: skills/resend
   upstream_sha: b2ae7b1798b70134faf679f35fc05b4331462988
   upstream_license: MIT
-  changes: 'frontmatter only: license set to SPDX id; metadata, stage and topic added; executable/non-markdown
-    files omitted: references/fetch-all-templates.mjs'
+  changes: 'frontmatter (license SPDX, metadata, stage, topic; fetch-all-templates.mjs dropped from references);
+    body: templates.md pointer to the omitted .mjs replaced by a pagination description; webhooks.md tunnel
+    commands (one needed sudo) replaced by a pointer to the tools'' official docs; installation.md Python
+    install pinned to resend==2.50.0; executable/non-markdown files omitted: references/fetch-all-templates.mjs'
 inputs:
 - name: RESEND_API_KEY
   description: Resend API key for sending and receiving emails. Get yours at https://resend.com/api-keys

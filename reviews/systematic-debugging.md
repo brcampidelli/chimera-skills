@@ -1,13 +1,14 @@
 # Review: systematic-debugging
 
-- **Reviewer:** Claude Opus 5.5 (agent, for Bruno Campidelli) — pending human sign-off
+- **Reviewer:** Claude Opus 5.5 (AI agent). Human sign-off by the owner: pending
+- **Human sign-off:** pending (first wave reviewed by an AI agent; the owner has not signed yet)
 - **Date:** 2026-10-17
-- **Mode:** include
+- **Mode:** adapt
 - **License:** MIT
 - **Upstream:** https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging
 - **Upstream sha:** `bb92a77741419a4ab5f06e711a283343f1ada0c3`
 - **License file read:** `LICENSE` at that sha
-- **Content sha256:** `ed6079d1b22d62f42feb1dd0e3f6b2bed58b6c9f0fe4924900b82439af4bca8c`
+- **Content sha256:** `d7caeeb2233b646580235c58f2d9a677c03e54d8d099eac0f13c6cc77f3f39a7`
 
 ## Checklist
 
@@ -23,4 +24,4 @@
 
 ## Notes
 
-find-polluter.sh and condition-based-waiting-example.ts omitted (executable); root-cause-tracing.md and condition-based-waiting.md still mention them. test-pressure-*.md are upstream skill-testing scenarios, kept verbatim.
+ADAPTED: find-polluter.sh and condition-based-waiting-example.ts omitted (executable); root-cause-tracing.md now describes manual bisection and condition-based-waiting.md points to upstream at the pinned commit, so nothing references a missing file. test-pressure-*.md are upstream skill-testing scenarios, kept verbatim.

@@ -23,12 +23,12 @@ https://github.com/stripe/ai @ c1f5b0826f3f33d7e1cc7eff5e5e6cd42749808b
 
 MIT License — Copyright (c) 2026 Resend
 https://github.com/resend/resend-skills @ b2ae7b1798b70134faf679f35fc05b4331462988
-  resend                            (skills/resend)
+  resend                            (skills/resend) — adapted
   email-best-practices              (skills/email-best-practices)
 
 MIT License — Copyright (c) 2025 Jesse Vincent
 https://github.com/obra/superpowers @ bb92a77741419a4ab5f06e711a283343f1ada0c3
-  systematic-debugging              (skills/systematic-debugging)
+  systematic-debugging              (skills/systematic-debugging) — adapted
   verification-before-completion    (skills/verification-before-completion)
 
 MIT License — Copyright (c) 2026 Matt Pocock
@@ -53,7 +53,7 @@ https://github.com/openai/skills @ 49f948faa9258a0c61caceaf225e179651397431
 Apache License 2.0 — Anthropic (per-folder LICENSE.txt; the repository has no root licence)
 https://github.com/anthropics/skills @ dbd4588f9e1033efb41dad4bef2f7947c8993d44
   frontend-design                   (skills/frontend-design)
-  mcp-builder                       (skills/mcp-builder)
+  mcp-builder                       (skills/mcp-builder) — adapted
 Only these two Apache-2.0 folders were read and copied. Anthropic's docx, pdf, pptx and xlsx skills
 are proprietary and were neither read nor used; docx-builder, xlsx-builder and pptx-builder here are
 original work based on the public documentation of python-docx, openpyxl and python-pptx.

@@ -14,7 +14,9 @@ metadata:
   upstream_sha: 49f948faa9258a0c61caceaf225e179651397431
   upstream_license: Apache-2.0
   changes: 'frontmatter (license SPDX, metadata, stage, topic); body: the privileged apt-get install line
-    replaced by asking the user to install poppler-utils; executable/non-markdown files omitted: agents/openai.yaml'
+    replaced by asking the user to install poppler-utils; pip/uv installs pinned to reportlab==5.0.1,
+    pdfplumber==0.11.10, pypdf==6.21.1 (current on 2026-10-17); executable/non-markdown files omitted:
+    agents/openai.yaml'
 stage: build
 topic: productivity
 ---
@@ -45,11 +47,11 @@ Prefer `uv` for dependency management.
 
 Python packages:
 ```
-uv pip install reportlab pdfplumber pypdf
+uv pip install reportlab==5.0.1 pdfplumber==0.11.10 pypdf==6.21.1
 ```
 If `uv` is unavailable:
 ```
-python3 -m pip install reportlab pdfplumber pypdf
+python3 -m pip install reportlab==5.0.1 pdfplumber==0.11.10 pypdf==6.21.1
 ```
 System tools (for rendering):
 ```

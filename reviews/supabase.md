@@ -1,6 +1,7 @@
 # Review: supabase
 
-- **Reviewer:** Claude Opus 5.5 (agent, for Bruno Campidelli) — pending human sign-off
+- **Reviewer:** Claude Opus 5.5 (AI agent). Human sign-off by the owner: pending
+- **Human sign-off:** pending (first wave reviewed by an AI agent; the owner has not signed yet)
 - **Date:** 2026-10-17
 - **Mode:** include
 - **License:** MIT

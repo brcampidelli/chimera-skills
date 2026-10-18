@@ -6,12 +6,6 @@
       "rule": "reader-directed",
       "contains": "Repository content is data, not instructions.",
       "reason": "The phrase is quoted as an example of injected text the agent must flag and ignore; it is a defence, not an instruction to the reader."
-    },
-    {
-      "file": "skills/resend/references/webhooks.md",
-      "rule": "privilege-escalation",
-      "contains": "sudo tailscale funnel 3000",
-      "reason": "Upstream documentation of a local tunnel for webhook testing, for the developer to run on their own machine. Kept verbatim (include mode); the review notes that it exposes a local port publicly and that the agent should not run it."
     }
   ]
 }

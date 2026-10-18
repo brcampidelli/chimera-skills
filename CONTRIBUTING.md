@@ -5,6 +5,10 @@
 Toda skill entra por pull request e passa por `python scripts/check.py`. O CI roda o mesmo script com
 o parser de skills do próprio Chimera.
 
+> **Revisões da primeira leva:** foram feitas por um agente de IA (Claude); a validação humana do
+> dono está pendente. Cada `reviews/<id>.md` traz `Human sign-off: pending` até alguém assinar de
+> verdade. Nunca assine em nome de outra pessoa.
+
 ### Skill própria (`mode: own`)
 
 1. Crie `skills/<id>/SKILL.md` (veja a skill `chimera-skill-authoring`) e, se precisar,
@@ -30,7 +34,7 @@ o parser de skills do próprio Chimera.
 - ComposioHQ e VoltAgent/ClawHub, de nenhuma forma.
 - As skills docx, pdf, pptx e xlsx da Anthropic (proprietárias) nem derivados delas.
 - Conteúdo GPL/AGPL, sem licença, ou com termos de uso de fornecedor no lugar de licença.
-- Instalação por pipe para shell, instalação global sem versão, pedido de privilégio de administrador,
+- Instalação por pipe para shell, instalação global sem versão, `pip install` sem `==versão`, pedido de privilégio de administrador,
   envio de código ou dados a terceiros, gatilho que tenta valer para todo turno, frase dirigida ao
   agente ou ao revisor.
 - Contagem de instalações. Popularidade, quando houver, é só estrelas do GitHub com a data da leitura.
@@ -55,3 +59,8 @@ that records the content hash. Third-party copies need a licence **file** on the
 (`mode: include`) or documented body edits (`mode: adapt`), plus `upstream.lock`, `NOTICE`, catalogue
 and review entries. ComposioHQ, VoltAgent/ClawHub and Anthropic's proprietary document skills are
 never accepted. No install counts, ever: popularity is GitHub stars with the date they were read.
+
+Reviews in this first wave were done by an AI agent (Claude); human sign-off by the owner is pending,
+and every `reviews/<id>.md` says `Human sign-off: pending` until a person actually signs. Never sign
+on someone else's behalf. Unpinned `pip install <pkg>` (no `==version`) fails the check, like an
+unpinned global npm install.

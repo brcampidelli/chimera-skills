@@ -88,7 +88,7 @@
     "sha": "b2ae7b1798b70134faf679f35fc05b4331462988",
     "spdx": "MIT",
     "license_file": "LICENSE",
-    "mode": "include",
+    "mode": "adapt",
     "files": {
       "references/api-keys.md": "7f350d7e230180677227a6895f1f55e73671cadf86c2f0af2b7ad8ae1a37256d",
       "references/automations.md": "fc602f33e89a60d446ec4551add802f75b8d6b925ea664718cd559da0e90b1c9",
@@ -98,7 +98,7 @@
       "references/domains.md": "4c22db3adfba852ab12360c8c99745f44cdaffa270c0e9814494b6399bc0e114",
       "references/events.md": "021bfe29a446087d706802b0819c6ac9611dd3df2283f7bfeed082aee8acfb2a",
       "references/inboxes.md": "cf3df79923add637a03e7873d6885abd301187ee8aef561f0f7c7068fc3299d3",
-      "references/installation.md": "41f158fc57a70578c7ccb46e4b226f8c762f69ea534c6266a47546437c70242e",
+      "references/installation.md": "fa5489470623c567b652f4ffdeb6ebbb265f078d9f8bfe66bae856de0c5cdff7",
       "references/logs.md": "46d6c9d74a8c0f0c46bc84b01a88782f497bbb5ac0cd44cea402f029769856fb",
       "references/receiving.md": "78da6c609ece641eec4b8b7e908bc70e29a73d4ce88510f84a1d01b0763c6168",
       "references/segments.md": "34179817db9bb175f398b0ef23e4254eb765678880f55cefc9b82c7c3171812b",
@@ -107,11 +107,11 @@
       "references/sending/email-management.md": "16d649da84356fba3cbcc5136c4c5154208ce39b4589843af5c77e8e2bbf9d66",
       "references/sending/overview.md": "2191c5008d1456f7a076e62419bed93c45a5f48bf3ac23d746a19264d1dd5a5b",
       "references/sending/single-email-examples.md": "9ff0df770d82487596f179e5781c723eb8691bf7f61917f46e090bc3c73834da",
-      "references/templates.md": "dfea43049abcf2ef19d0b8b3d95dc892ad65c2b4a09852035f0b7e9153935e29",
+      "references/templates.md": "41147b55e2c2b6c92dff205d12d0822de0863e85492c9145076430c362d82734",
       "references/topics.md": "4258030d53aa883c002b8c143899aaafe43ecb8865835000f411b959938e9eae",
       "references/usage.md": "f3575efcf7fe8bde588e2d791c65e20095f366dbe52b51477441d09774438799",
-      "references/webhooks.md": "abb84ba9c6b126eda416cb79e5b6ecb84cb4cb248e4cb15b1351483ef5c7b5e0",
-      "SKILL.md": "12d0de7e2d593469baf8345a429cf7fd8f93a9211e2594d74b8777f477fb4d1a",
+      "references/webhooks.md": "653b426e29f871bc04fe38af6ee1cb99557bb5b344c16c2e50f3f49f61cf0299",
+      "SKILL.md": "e44bc9b53f34e0f79d75b0e824f5c48dbd8ec1cd3e5e26f16be234987be397cb",
       "LICENSE": "f71cc2b0a8199ff748415642e1006c760f017d8defbc29237ce43ae1e8fa8197"
     },
     "omitted": [
@@ -148,13 +148,13 @@
     "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
     "spdx": "MIT",
     "license_file": "LICENSE",
-    "mode": "include",
+    "mode": "adapt",
     "files": {
-      "condition-based-waiting.md": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+      "condition-based-waiting.md": "25e889c2a4fad8a844b741b325d08e2645dab173623b801cd20a1f5e87cb0a74",
       "CREATION-LOG.md": "c24733a5b1821bd6bed1fc950261f0b9f4e90097e0bbb96459d8179713730789",
       "defense-in-depth.md": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
-      "root-cause-tracing.md": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8",
-      "SKILL.md": "7596d378f5f761a43ea491c64e80d85c7a475ebe5c42b89b802c89a803ac1e0f",
+      "root-cause-tracing.md": "9c8f966c3a5b41a3dd56fbb16180466617a25e9e996ef9d347127cd1b8c9e58c",
+      "SKILL.md": "ea1269ebdd71bfa68fc96a43baaaf8c66d95470cf7874cab8991c9caca97bd85",
       "test-academic.md": "fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
       "test-pressure-1.md": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
       "test-pressure-2.md": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
@@ -346,13 +346,13 @@
     "sha": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
     "spdx": "Apache-2.0",
     "license_file": "skills/mcp-builder/LICENSE.txt",
-    "mode": "include",
+    "mode": "adapt",
     "files": {
-      "reference/evaluation.md": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+      "reference/evaluation.md": "61100b3bc192f1caf21f53bcc22161a18b42dd748863a65dcaf292107ef59782",
       "reference/mcp_best_practices.md": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
       "reference/node_mcp_server.md": "c3ba35a4f599dd53be9c6555ae72c19a7bf412cd5426576c2c08d42755482c66",
       "reference/python_mcp_server.md": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
-      "SKILL.md": "0eb994b614035c7b2931f6ea4788b9c7d69f68556836cbc3a0ed4d3167d95f62",
+      "SKILL.md": "7a9b5de67634d532e6d271695091e522d1c624d729f99b34e7f9862862b4e486",
       "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
     },
     "omitted": [
@@ -370,7 +370,7 @@
     "license_file": "skills/.curated/pdf/LICENSE.txt",
     "mode": "adapt",
     "files": {
-      "SKILL.md": "aff15f99601260604d6e1f841676b80634f87d90c842815b6063e5f7dc07deab",
+      "SKILL.md": "df4c4462214c80cea353d33b8f561d5db1f4f9ea552549b70e1f67e83b3a56ab",
       "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
     },
     "omitted": [

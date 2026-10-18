@@ -9,7 +9,7 @@ These are the minimum versions required for full functionality (sending, receivi
 | Language | Package | Min Version | Install |
 |----------|---------|-------------|---------|
 | Node.js | `resend` | >= 6.14.0 | `npm install resend` |
-| Python | `resend` | >= 2.34.0 | `pip install resend` |
+| Python | `resend` | >= 2.34.0 | `pip install resend==2.50.0` |
 | Go | `resend-go/v4` | >= 4.0.0 | `go get github.com/resend/resend-go/v4` |
 | Ruby | `resend` | >= 1.6.0 | `gem install resend` |
 | PHP | `resend/resend-php` | >= 1.1.0 | `composer require resend/resend-php` |
@@ -53,7 +53,7 @@ bun add resend
 ### Python
 
 ```bash
-pip install resend
+pip install resend==2.50.0  # pin the version you tested; 2.50.0 was current on 2026-10-17
 ```
 
 ### Go

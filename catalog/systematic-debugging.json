@@ -19,7 +19,7 @@
   ],
   "featured": true,
   "license": "MIT",
-  "mode": "include",
+  "mode": "adapt",
   "executes": {
     "pt-BR": "Só instruções; nada executa sozinho.",
     "en": "Instructions only; nothing runs by itself."

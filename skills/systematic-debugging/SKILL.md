@@ -6,13 +6,14 @@ metadata:
   category: engineering
   categories_secondary: testing-quality
   tags: debugging, root-cause, tests
-  mode: include
+  mode: adapt
   upstream_repo: obra/superpowers
   upstream_path: skills/systematic-debugging
   upstream_sha: bb92a77741419a4ab5f06e711a283343f1ada0c3
   upstream_license: MIT
-  changes: 'frontmatter only: license set to SPDX id; metadata, stage and topic added; executable/non-markdown
-    files omitted: condition-based-waiting-example.ts, find-polluter.sh'
+  changes: 'frontmatter (license SPDX, metadata, stage, topic); body: root-cause-tracing.md and condition-based-waiting.md
+    no longer point at the omitted find-polluter.sh and condition-based-waiting-example.ts (manual bisection
+    described instead); executable/non-markdown files omitted: condition-based-waiting-example.ts, find-polluter.sh'
 stage: verify
 topic: software-dev
 ---

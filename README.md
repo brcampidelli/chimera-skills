@@ -28,7 +28,9 @@ cada uma com o próprio LICENSE, fixada num commit e revisada.
 - **Fonte fixada** por commit em [`upstream.lock`](upstream.lock), com o hash de cada arquivo copiado.
 - **Só texto.** Nenhuma skill traz script executável; exemplos de código ficam no markdown.
 - **Revisão por item** em [`reviews/`](reviews/), com o hash exato do conteúdo revisado.
-- **Checagem de segurança** automática: instalação por pipe para shell, instalação global sem versão,
+  **Atenção:** as revisões desta primeira leva foram feitas por um agente de IA (Claude); a
+  validação humana do dono ainda está pendente, e cada arquivo de revisão diz isso.
+- **Checagem de segurança** automática: instalação por pipe para shell, instalação global ou `pip install` sem versão,
   privilégio de administrador, frases dirigidas ao agente ou ao revisor, gatilhos que tentam valer
   para todo turno.
 - **Sem número inventado:** popularidade só como estrelas do GitHub com a data da leitura; nenhuma
@@ -59,7 +61,8 @@ licensed third-party skills, each with its own licence file, pinned to a commit 
 
 Rules: licences are read from the licence file; sources are pinned in `upstream.lock` with a hash per
 copied file; skills ship text only, no executables; every item has a review recording the exact
-content hash; CI scans for pipe-to-shell installs, unpinned global installs, privilege escalation,
+content hash (reviews in this first wave were done by an AI agent, Claude; human sign-off by the
+owner is pending, and each review file says so); CI scans for pipe-to-shell installs, unpinned global or pip installs, privilege escalation,
 reader-directed instructions and triggers that try to own every turn; popularity is GitHub stars with
 the read date, never install counts. Curation is not approval: Chimera imports every skill from here
 pending and untrusted.

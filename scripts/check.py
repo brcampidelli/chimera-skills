@@ -52,6 +52,9 @@ TEXT_RULES: list[tuple[str, str, int]] = [
     ("dominating-trigger", r"\bYOU\s+(ABSOLUTELY\s+)?MUST\b|\bMANDATORY\b|\bNEVER\s+CALL\b", 0),
 ]
 GLOBAL_INSTALL = re.compile(r"\b(npm|pnpm|yarn|bun)\s+(install|i|add|global\s+add)\b(?P<args>[^\n`]*)", re.I)
+PIP_INSTALL = re.compile(r"\bpip3?\s+install\b(?P<args>[^\n`|#]*)", re.I)
+PIP_FLAGS_WITH_VALUE = {"-r", "--requirement", "-c", "--constraint", "-e", "--editable", "-i", "--index-url",
+                        "--extra-index-url", "-t", "--target", "--python"}
 SCRIPT_RULES: list[tuple[str, str]] = [
     ("script-network", r"requests\.|urllib|http\.client|\bfetch\(|axios|\bcurl\b|\bwget\b|socket\.|Invoke-WebRequest"),
     ("script-shell", r"subprocess|os\.system|child_process|\bexec\(|\bspawn\(|\beval\("),
@@ -98,6 +101,27 @@ def _all_keys(obj: object) -> list[str]:
     if isinstance(obj, list):
         return [k for v in obj for k in _all_keys(v)]
     return []
+
+
+def _unpinned_pip(args: str) -> bool:
+    """True when a pip install names a package without an exact ``==version`` pin.
+
+    Requirement/constraint files and local paths are not judged here: their pins live in the file.
+    """
+    tokens = [t.strip("\"'") for t in args.split()]
+    skip = False
+    for tok in tokens:
+        if skip:
+            skip = False
+            continue
+        if tok in PIP_FLAGS_WITH_VALUE:
+            skip = True
+            continue
+        if not tok or tok.startswith("-") or tok.startswith((".", "/", "~")) or tok.endswith(".whl"):
+            continue
+        if not re.search(r"==\d", tok):
+            return True
+    return False
 
 
 def csv_list(value: object) -> list[str]:
@@ -339,6 +363,9 @@ class Checker:
                     pkgs = [t for t in m.group("args").split() if not t.startswith("-")]
                     if not pkgs or any(not re.search(r"@\d", t) for t in pkgs):
                         findings.append(Finding(rel, n, "unpinned-global-install", line.strip()[:160]))
+                pm = PIP_INSTALL.search(line)
+                if pm and _unpinned_pip(pm.group("args")):
+                    findings.append(Finding(rel, n, "unpinned-pip-install", line.strip()[:160]))
                 if is_script:
                     for rule, pattern in SCRIPT_RULES:
                         if re.search(pattern, line):

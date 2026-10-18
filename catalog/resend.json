@@ -20,7 +20,7 @@
   ],
   "featured": false,
   "license": "MIT",
-  "mode": "include",
+  "mode": "adapt",
   "executes": {
     "pt-BR": "Instrui chamadas à API da Resend com a chave do usuário (RESEND_API_KEY).",
     "en": "Guides calls to the Resend API with the user's key (RESEND_API_KEY)."

@@ -98,13 +98,7 @@ npm test 2>&1 | grep 'DEBUG git init'
 
 If something appears during tests but you don't know which test:
 
-Use the bisection script `find-polluter.sh` in this directory:
-
-```bash
-bash ./find-polluter.sh '.git' 'src/**/*.test.ts'
-```
-
-Runs tests one-by-one, stops at first polluter. See script for usage.
+Bisect the test files: run them one at a time (or in halves) and, after each run, check whether the polluting artifact appeared. The first run that creates it names the polluter. (Upstream ships a helper script for this; it is not vendored in chimera-skills.)
 
 ## Real Example: Empty projectDir
 

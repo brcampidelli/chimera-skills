@@ -361,12 +361,9 @@ IPv6: `2600:1f24:64:8000::/52`
 Use tunneling tools to test webhooks locally:
 
 ```bash
-# Tailscale Funnel (recommended — permanent URL)
-sudo tailscale funnel 3000
-
-# ngrok
-ngrok http 3000
-# Then use the tunnel URL in Resend dashboard
+# Use a tunnelling tool (for example Tailscale Funnel or ngrok) as described in its
+# official documentation. Run it yourself: it exposes a local port to the internet.
+# Then use the tunnel URL in the Resend dashboard
 ```
 
 ## Event Payload Example

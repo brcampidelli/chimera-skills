@@ -1,13 +1,14 @@
 # Review: pdf
 
-- **Reviewer:** Claude Opus 5.5 (agent, for Bruno Campidelli) — pending human sign-off
+- **Reviewer:** Claude Opus 5.5 (AI agent). Human sign-off by the owner: pending
+- **Human sign-off:** pending (first wave reviewed by an AI agent; the owner has not signed yet)
 - **Date:** 2026-10-17
 - **Mode:** adapt
 - **License:** Apache-2.0
 - **Upstream:** https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/pdf
 - **Upstream sha:** `49f948faa9258a0c61caceaf225e179651397431`
 - **License file read:** `skills/.curated/pdf/LICENSE.txt` at that sha
-- **Content sha256:** `15c38b657067e58850a2f420579828bc6eaf3c9540b5e3db959f7b5f5b8236c3`
+- **Content sha256:** `5f954b9f4d7871197149e015791b668ca65e701edd12c93d14651a65e0a3b7de`
 
 ## Checklist
 
@@ -23,4 +24,4 @@
 
 ## Notes
 
-ADAPTED: the privileged apt-get line was replaced by asking the user to install poppler-utils. pip/uv installs in the skill are unpinned package names: pin them in the project when used. Legal substitute for Anthropic's proprietary pdf skill (not read).
+ADAPTED: the privileged apt-get line was replaced by asking the user to install poppler-utils. pip/uv installs pinned to reportlab==5.0.1, pdfplumber==0.11.10, pypdf==6.21.1 (current on 2026-10-17). Legal substitute for Anthropic's proprietary pdf skill (not read).

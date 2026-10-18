@@ -1,13 +1,14 @@
 # Review: resend
 
-- **Reviewer:** Claude Opus 5.5 (agent, for Bruno Campidelli) — pending human sign-off
+- **Reviewer:** Claude Opus 5.5 (AI agent). Human sign-off by the owner: pending
+- **Human sign-off:** pending (first wave reviewed by an AI agent; the owner has not signed yet)
 - **Date:** 2026-10-17
-- **Mode:** include
+- **Mode:** adapt
 - **License:** MIT
 - **Upstream:** https://github.com/resend/resend-skills/tree/b2ae7b1798b70134faf679f35fc05b4331462988/skills/resend
 - **Upstream sha:** `b2ae7b1798b70134faf679f35fc05b4331462988`
 - **License file read:** `LICENSE` at that sha
-- **Content sha256:** `2e890f68a2124f4513e62289072c4ac7c01fe97bd80ae4d1c1f04f940b112978`
+- **Content sha256:** `31a9d702b685f0e9c745c026c9df1bf4d9c49b8954e0d409995679843d1be95d`
 
 ## Checklist
 
@@ -23,4 +24,4 @@
 
 ## Notes
 
-references/fetch-all-templates.mjs omitted (executable); templates.md still mentions it. references/webhooks.md shows a local tunnel command with elevated privileges for the developer: kept verbatim under a reviewed exception; the agent should not run it.
+ADAPTED: references/fetch-all-templates.mjs omitted (executable) and the templates.md pointer to it replaced by a pagination description; the webhooks.md tunnel commands (one used sudo) replaced by a pointer to the tools' official docs, which removed the former security exception; the Python install in installation.md pinned to resend==2.50.0.
