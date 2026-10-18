@@ -1,0 +1,39 @@
+{
+  "id": "resend",
+  "title": {
+    "pt-BR": "Resend",
+    "en": "Resend"
+  },
+  "summary": {
+    "pt-BR": "API de e-mail da Resend: envio, recebimento, templates, webhooks, domínios e contatos.",
+    "en": "Resend email API: sending, receiving, templates, webhooks, domains and contacts."
+  },
+  "category": "email-messaging",
+  "categories_secondary": [
+    "apis-integrations"
+  ],
+  "tags": [
+    "resend",
+    "email",
+    "transactional",
+    "webhooks"
+  ],
+  "featured": false,
+  "license": "MIT",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Instrui chamadas à API da Resend com a chave do usuário (RESEND_API_KEY).",
+    "en": "Guides calls to the Resend API with the user's key (RESEND_API_KEY)."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "resend/resend-skills",
+    "path": "skills/resend",
+    "sha": "b2ae7b1798b70134faf679f35fc05b4331462988",
+    "license": "MIT",
+    "url": "https://github.com/resend/resend-skills/tree/b2ae7b1798b70134faf679f35fc05b4331462988/skills/resend",
+    "stars": 202,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

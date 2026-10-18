@@ -1,0 +1,39 @@
+{
+  "id": "mcp-builder",
+  "title": {
+    "pt-BR": "Construir servidores MCP",
+    "en": "MCP builder"
+  },
+  "summary": {
+    "pt-BR": "Guia para servidores MCP de qualidade em Python ou TypeScript.",
+    "en": "Guide to high-quality MCP servers in Python or TypeScript."
+  },
+  "category": "apis-integrations",
+  "categories_secondary": [
+    "ai-models-agents"
+  ],
+  "tags": [
+    "mcp",
+    "tools",
+    "fastmcp",
+    "typescript"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Instrui a buscar a documentação do MCP e dos SDKs na web.",
+    "en": "Tells the agent to fetch MCP and SDK docs from the web."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "anthropics/skills",
+    "path": "skills/mcp-builder",
+    "sha": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "license": "Apache-2.0",
+    "url": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder",
+    "stars": 181786,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

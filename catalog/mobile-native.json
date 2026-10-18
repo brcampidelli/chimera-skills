@@ -1,0 +1,39 @@
+{
+  "id": "mobile-native",
+  "title": {
+    "pt-BR": "Web com cara de app no celular",
+    "en": "Mobile-native web"
+  },
+  "summary": {
+    "pt-BR": "Correções de CSS e meta tags que fazem a web parecer app instalado.",
+    "en": "CSS and meta-tag fixes that make the web feel installed."
+  },
+  "category": "sites-frontend",
+  "categories_secondary": [
+    "design-media"
+  ],
+  "tags": [
+    "mobile",
+    "css",
+    "pwa",
+    "touch"
+  ],
+  "featured": false,
+  "license": "MIT",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/mobile-native",
+    "sha": "2d228630ba1446365f614a108cb8252f1feda202",
+    "license": "MIT",
+    "url": "https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/mobile-native",
+    "stars": 47045,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

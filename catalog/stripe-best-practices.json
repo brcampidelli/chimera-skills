@@ -1,0 +1,41 @@
+{
+  "id": "stripe-best-practices",
+  "title": {
+    "pt-BR": "Boas práticas de Stripe",
+    "en": "Stripe best practices"
+  },
+  "summary": {
+    "pt-BR": "Escolha de API, webhooks, billing, Connect, impostos e segurança de chaves.",
+    "en": "API choice, webhooks, billing, Connect, tax and key security."
+  },
+  "category": "finance-payments",
+  "categories_secondary": [
+    "apis-integrations",
+    "security"
+  ],
+  "tags": [
+    "stripe",
+    "billing",
+    "checkout",
+    "webhooks",
+    "subscriptions"
+  ],
+  "featured": false,
+  "license": "MIT",
+  "mode": "adapt",
+  "executes": {
+    "pt-BR": "Instrui o uso da CLI da Stripe e da documentação oficial; nada é instalado pela skill.",
+    "en": "Mentions the Stripe CLI and official docs; the skill installs nothing."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "stripe/ai",
+    "path": "providers/claude/plugin/skills/stripe-best-practices",
+    "sha": "c1f5b0826f3f33d7e1cc7eff5e5e6cd42749808b",
+    "license": "MIT",
+    "url": "https://github.com/stripe/ai/tree/c1f5b0826f3f33d7e1cc7eff5e5e6cd42749808b/providers/claude/plugin/skills/stripe-best-practices",
+    "stars": 1955,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

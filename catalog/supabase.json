@@ -1,0 +1,41 @@
+{
+  "id": "supabase",
+  "title": {
+    "pt-BR": "Supabase",
+    "en": "Supabase"
+  },
+  "summary": {
+    "pt-BR": "Guia oficial da Supabase: princípios, checklist de segurança, CLI, MCP e migrações.",
+    "en": "Supabase's official guide: principles, security checklist, CLI, MCP and migrations."
+  },
+  "category": "databases",
+  "categories_secondary": [
+    "security",
+    "apis-integrations"
+  ],
+  "tags": [
+    "supabase",
+    "postgres",
+    "auth",
+    "rls",
+    "edge-functions"
+  ],
+  "featured": true,
+  "license": "MIT",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Instrui o agente a consultar a documentação da Supabase na web e a usar a CLI/MCP do projeto.",
+    "en": "Tells the agent to fetch Supabase docs from the web and use the project's CLI/MCP."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "supabase/agent-skills",
+    "path": "skills/supabase",
+    "sha": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+    "license": "MIT",
+    "url": "https://github.com/supabase/agent-skills/tree/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase",
+    "stars": 2861,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

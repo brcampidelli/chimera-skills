@@ -1,0 +1,36 @@
+{
+  "id": "grill-me",
+  "title": {
+    "pt-BR": "Sabatina do plano",
+    "en": "Grill me"
+  },
+  "summary": {
+    "pt-BR": "Entrevista implacável para afiar um plano ou design.",
+    "en": "A relentless interview to sharpen a plan or design."
+  },
+  "category": "product",
+  "categories_secondary": [],
+  "tags": [
+    "planning",
+    "interview",
+    "decisions"
+  ],
+  "featured": false,
+  "license": "MIT",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "mattpocock/skills",
+    "path": "skills/productivity/grill-me",
+    "sha": "49dd158d1076134a641b33efb035946536778336",
+    "license": "MIT",
+    "url": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/productivity/grill-me",
+    "stars": 295080,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

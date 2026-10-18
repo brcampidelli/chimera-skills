@@ -1,0 +1,37 @@
+{
+  "id": "pdf",
+  "title": {
+    "pt-BR": "PDF",
+    "en": "PDF"
+  },
+  "summary": {
+    "pt-BR": "Ler, gerar e revisar PDF com renderização visual (reportlab, pypdf, Poppler).",
+    "en": "Read, generate and review PDFs with visual rendering (reportlab, pypdf, Poppler)."
+  },
+  "category": "files-documents",
+  "categories_secondary": [],
+  "tags": [
+    "pdf",
+    "reportlab",
+    "pypdf",
+    "poppler"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "adapt",
+  "executes": {
+    "pt-BR": "Instrui instalar pacotes Python e usar o Poppler local.",
+    "en": "Tells the agent to install Python packages and use local Poppler."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "openai/skills",
+    "path": "skills/.curated/pdf",
+    "sha": "49f948faa9258a0c61caceaf225e179651397431",
+    "license": "Apache-2.0",
+    "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/pdf",
+    "stars": 28129,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

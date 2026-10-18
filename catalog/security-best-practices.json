@@ -1,0 +1,40 @@
+{
+  "id": "security-best-practices",
+  "title": {
+    "pt-BR": "Boas práticas de segurança",
+    "en": "Security best practices"
+  },
+  "summary": {
+    "pt-BR": "Revisão de segurança por linguagem e framework (Next.js, React, FastAPI e outros).",
+    "en": "Security review by language and framework (Next.js, React, FastAPI and more)."
+  },
+  "category": "security",
+  "categories_secondary": [
+    "code"
+  ],
+  "tags": [
+    "owasp",
+    "nextjs",
+    "react",
+    "fastapi",
+    "secure-defaults"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "openai/skills",
+    "path": "skills/.curated/security-best-practices",
+    "sha": "49f948faa9258a0c61caceaf225e179651397431",
+    "license": "Apache-2.0",
+    "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-best-practices",
+    "stars": 28129,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

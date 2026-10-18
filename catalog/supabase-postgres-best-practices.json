@@ -1,0 +1,40 @@
+{
+  "id": "supabase-postgres-best-practices",
+  "title": {
+    "pt-BR": "Boas práticas de Postgres (Supabase)",
+    "en": "Postgres best practices (Supabase)"
+  },
+  "summary": {
+    "pt-BR": "Regras de índices, conexões, locks, schema e RLS priorizadas por impacto.",
+    "en": "Index, connection, locking, schema and RLS rules ranked by impact."
+  },
+  "category": "databases",
+  "categories_secondary": [
+    "security"
+  ],
+  "tags": [
+    "postgres",
+    "indexes",
+    "performance",
+    "schema",
+    "rls"
+  ],
+  "featured": false,
+  "license": "MIT",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "supabase/agent-skills",
+    "path": "skills/supabase-postgres-best-practices",
+    "sha": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+    "license": "MIT",
+    "url": "https://github.com/supabase/agent-skills/tree/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices",
+    "stars": 2861,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

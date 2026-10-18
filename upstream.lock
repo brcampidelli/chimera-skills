@@ -1,0 +1,380 @@
+{
+  "supabase": {
+    "repo": "supabase/agent-skills",
+    "path": "skills/supabase",
+    "sha": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "assets/feedback-issue-template.md": "ea211aa174c5a096fe76461f25143b8bc23f3bde3adc9e727cda38218cc8c282",
+      "CHANGELOG.md": "4b9c9387871d7888f18e9c97a7d5691ea38e333401ccdcb0161d2140cb16b2d8",
+      "references/skill-feedback.md": "09ad94c0291735dfc04c92557c8734fa259ec39e1d56bf2bd5c6a6529d838717",
+      "SKILL.md": "55a1c724f52c0359250f199b5b9989eb0adbc5e023632ca3de0cea7b9dfbae18",
+      "LICENSE": "b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c"
+    },
+    "omitted": []
+  },
+  "supabase-postgres-best-practices": {
+    "repo": "supabase/agent-skills",
+    "path": "skills/supabase-postgres-best-practices",
+    "sha": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "CHANGELOG.md": "751ad110037c85d400018c9894716a04fa46357ff55c22b1169b280752e19e88",
+      "references/_contributing.md": "191e039e7d94764e6073410b513b559f9a594e0fdf0252a30c2a2986df2ab3bc",
+      "references/_sections.md": "c9e992612b422c7122de0b7542ebc2450db283edaab08cfe86c6d657fcccccd5",
+      "references/_template.md": "6299954250f212caabe339d752c3e5313a8e07d1a182a4e4b425baee91df1bd2",
+      "references/advanced-full-text-search.md": "40c2606bbb4c4dce31308f201b24cc7f58c7df05b1d9c6856fe2b888d3b7cf28",
+      "references/advanced-jsonb-indexing.md": "24cacf6a8bc35901dd566d24502ce8e57f810a5c196b897e61d52726e521d106",
+      "references/conn-idle-timeout.md": "630588902c00fcec59a5988cc5d042f76dcf2c923a535abfd8c47dca205eaed5",
+      "references/conn-limits.md": "11b2a67a7c7679cbbc5d807bbb17e69c98484a581d0c8b929c03408f412b81b2",
+      "references/conn-pooling.md": "88cf086bf98ba865d2e9d0579974e1366b14157619d6a93e7da77be91084e4a5",
+      "references/conn-prepared-statements.md": "174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+      "references/data-batch-inserts.md": "531933b82d6a622d0fae29e0ea80be6fe5d78655adf2804c271ea84a1930de37",
+      "references/data-n-plus-one.md": "21a44905e5b16a42741892ec34bb1bfef124d049b140a76934a9acd0f46f5fc2",
+      "references/data-pagination.md": "73c9fa10a3d439bedea0e11b640bd25bf30dd50f0d9006cf85baf7c3151543fa",
+      "references/data-upsert.md": "2612af83b20a2701dde30ef1f8d7efd26b7e9eef84717226b8f038a2d2150ff7",
+      "references/lock-advisory.md": "c88d259dbf81c3771438f59a165f7eab8acd09999dd370bdf807521c73f35aab",
+      "references/lock-deadlock-prevention.md": "09aee46f51d7178c8e55fe056cd5a94a64ba2c122fe418e6900cd99f297b2347",
+      "references/lock-short-transactions.md": "5aa7f61095916986d39644b446cdbcd2bacca7ef698a3bb50b3f82dd60207602",
+      "references/lock-skip-locked.md": "6c45077f430f29cd9cd8f448c94d578e827e7bd023fcdaf717a756acb116fa4b",
+      "references/monitor-explain-analyze.md": "4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+      "references/monitor-pg-stat-statements.md": "89dca99d4e894fcbdcac136be7ad9fbc03d1342904f065c1b198dc9cf495f098",
+      "references/monitor-vacuum-analyze.md": "2892272011710eb49b3f185ec12f15ce9ce4c365792c672f6e2a9c90da426a1a",
+      "references/query-composite-indexes.md": "73e42424e671f0266e74fdb220db3196790f69fb43e2b19c7b9483eb4971b554",
+      "references/query-covering-indexes.md": "daf2a7f0477fb7357b62b5fb5b185b1995a77a186347e45cb780e25e7a7589b6",
+      "references/query-index-types.md": "472a74f22c2df203bd0154999b3a5a0187cca2ab3d9a3978e305bb7c32f1a282",
+      "references/query-missing-indexes.md": "91ad8b0ff4365704b4830a7f077c6f140f7140fd5d3ce5cd0b92b160cf9e25f1",
+      "references/query-partial-indexes.md": "6448982bc8558c6555284958edc331b29239c6a0130e6b4501dd6d4da607a6dd",
+      "references/schema-constraints.md": "90e8efda3e9e81095e642911ad4aae2809d160f29414338fa997253238f510f8",
+      "references/schema-data-types.md": "e01b58c14c7f3f65d8ead580b9a4fcf70b83baaab0f9a5f83c569c9fd113e8c8",
+      "references/schema-foreign-key-indexes.md": "7587713d12a65a212365459b3d39e4717d8a79e4073b10bd62f1054d8192c0dd",
+      "references/schema-lowercase-identifiers.md": "4bc80f70865f2390872591f326c8a6be6456a0aeb5a7e5a2475d7cd9d43059ab",
+      "references/schema-partitioning.md": "541e13fbeaf4bb1485c9059d4c9417dbdb766cf16f4237cd63a04ada7ec45b90",
+      "references/schema-primary-keys.md": "3c8beabef82066f9a0838b926da0885117fd2d9a263aaf84cb5ca9e5f0d400e9",
+      "references/security-privileges.md": "095909274a4fb43df785d7144cf674eeb40284d2d45628f14af4108737b93663",
+      "references/security-rls-basics.md": "e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+      "references/security-rls-performance.md": "2e1faeca7d5746e246b1c78f9492fe2a9cfa41c4d7fa1e23c402d58fa18ea014",
+      "SKILL.md": "0f906286cb55c822b20597b03067084ac8d263a7e9f5d6eea9cfbab7bd0c1705",
+      "LICENSE": "b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c"
+    },
+    "omitted": []
+  },
+  "stripe-best-practices": {
+    "repo": "stripe/ai",
+    "path": "providers/claude/plugin/skills/stripe-best-practices",
+    "sha": "c1f5b0826f3f33d7e1cc7eff5e5e6cd42749808b",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "adapt",
+    "files": {
+      "references/billing.md": "85cf38ea5ca0b43da54d96a2b285abb467679f8e103595b524b801ebc00b7c5d",
+      "references/connect.md": "5da76cb728ab738f52b0838d5e5d4143a3aa91d73d842f69153e2a1f0ca9471f",
+      "references/payments.md": "f7edac576b72da7b5c11a4d532240bd11dab1f4c8dfe1d4040d16d5a6ec0fee0",
+      "references/security.md": "9d2b1f3a6e72d5907e0418291523c61aa27bb7ad2db3a7b94fe4f356519651d7",
+      "references/tax.md": "ccc083b0001c6634053dad4ddef25d356d44b9d17591752dd74e602595fd2ddb",
+      "references/treasury.md": "ccd38ef29a654b2c59bde4d56e5537af6a89f10a7297ed0b87c3b9e9f2bb8ffa",
+      "SKILL.md": "cba1d1f7e2d450c2c8ba782b366c0d37fcc72260097d3d53ecf5576e832b8371",
+      "LICENSE": "04460ff88cf26c5801e062b9b2847bfebd3f08c1432f97dc0124edfbbb6d671b"
+    },
+    "omitted": []
+  },
+  "resend": {
+    "repo": "resend/resend-skills",
+    "path": "skills/resend",
+    "sha": "b2ae7b1798b70134faf679f35fc05b4331462988",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "references/api-keys.md": "7f350d7e230180677227a6895f1f55e73671cadf86c2f0af2b7ad8ae1a37256d",
+      "references/automations.md": "fc602f33e89a60d446ec4551add802f75b8d6b925ea664718cd559da0e90b1c9",
+      "references/broadcasts.md": "89a6c9c2fa105d2e2b4b659d3d669cd31faf5ed8362169566c4297e6bf17c766",
+      "references/contact-properties.md": "0d2afba241e98530e023f4f49f038f79d333af591ac6099178a10ef6d8f1e156",
+      "references/contacts.md": "4a68b67dad36e33e6efcaa94c5d778656fd7321e42b5ba94f43ea08664688052",
+      "references/domains.md": "4c22db3adfba852ab12360c8c99745f44cdaffa270c0e9814494b6399bc0e114",
+      "references/events.md": "021bfe29a446087d706802b0819c6ac9611dd3df2283f7bfeed082aee8acfb2a",
+      "references/inboxes.md": "cf3df79923add637a03e7873d6885abd301187ee8aef561f0f7c7068fc3299d3",
+      "references/installation.md": "41f158fc57a70578c7ccb46e4b226f8c762f69ea534c6266a47546437c70242e",
+      "references/logs.md": "46d6c9d74a8c0f0c46bc84b01a88782f497bbb5ac0cd44cea402f029769856fb",
+      "references/receiving.md": "78da6c609ece641eec4b8b7e908bc70e29a73d4ce88510f84a1d01b0763c6168",
+      "references/segments.md": "34179817db9bb175f398b0ef23e4254eb765678880f55cefc9b82c7c3171812b",
+      "references/sending/batch-email-examples.md": "6d9bc7ceed7ecf656a4eb8e19b3878e15793ede7e57bcb7b9505b1ee095ac250",
+      "references/sending/best-practices.md": "a1b075637f86a649bb5810ad342c44b154164d8a18f2f1163fb1bb12d24a13d8",
+      "references/sending/email-management.md": "16d649da84356fba3cbcc5136c4c5154208ce39b4589843af5c77e8e2bbf9d66",
+      "references/sending/overview.md": "2191c5008d1456f7a076e62419bed93c45a5f48bf3ac23d746a19264d1dd5a5b",
+      "references/sending/single-email-examples.md": "9ff0df770d82487596f179e5781c723eb8691bf7f61917f46e090bc3c73834da",
+      "references/templates.md": "dfea43049abcf2ef19d0b8b3d95dc892ad65c2b4a09852035f0b7e9153935e29",
+      "references/topics.md": "4258030d53aa883c002b8c143899aaafe43ecb8865835000f411b959938e9eae",
+      "references/usage.md": "f3575efcf7fe8bde588e2d791c65e20095f366dbe52b51477441d09774438799",
+      "references/webhooks.md": "abb84ba9c6b126eda416cb79e5b6ecb84cb4cb248e4cb15b1351483ef5c7b5e0",
+      "SKILL.md": "12d0de7e2d593469baf8345a429cf7fd8f93a9211e2594d74b8777f477fb4d1a",
+      "LICENSE": "f71cc2b0a8199ff748415642e1006c760f017d8defbc29237ce43ae1e8fa8197"
+    },
+    "omitted": [
+      "references/fetch-all-templates.mjs"
+    ]
+  },
+  "email-best-practices": {
+    "repo": "resend/resend-skills",
+    "path": "skills/email-best-practices",
+    "sha": "b2ae7b1798b70134faf679f35fc05b4331462988",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "references/accessibility.md": "bda4563062562f60acaddae95d422e533f894b453eb2d41c5ce370e202e3bc47",
+      "references/compliance.md": "8e4e695118713593c0ddbf4ebeeebae1f5c1362d98e7884ea03930749f17ff42",
+      "references/deliverability.md": "f98bc3072c780deccf15fd128dcbd134663811264a3cec5c9fbb9c7d7ab7e503",
+      "references/email-capture.md": "231644ab8e24464aae1455a934b77ecfdffeaad2a17ef4ee1c84b80f118eb9f0",
+      "references/email-types.md": "f73a80274bfab6f356de35703c23e946941bf97f8d261a13f1bf3e2c3e71f3fc",
+      "references/list-management.md": "2578129410450a562e9f0ec3f26e69da24e8eb75255f63737b3c251ca58bd77b",
+      "references/marketing-emails.md": "6b05077c614f419b51e792638303ecd184c8c2ec7411b5c0667c3e7234869a05",
+      "references/sending-reliability.md": "732fe1d380c76411b70b4eb913d95d289c05bd25a7724897222ae7ae1e50962a",
+      "references/transactional-email-catalog.md": "31e8f776dadf2f0cf4a915752fd168b6d7be36b5d1cdc16f2d0efae74e21f9ee",
+      "references/transactional-emails.md": "c9b94a17aac6e11ad4d9209228f911e294abe65906ef35f409ffba5727ee7a47",
+      "references/webhooks-events.md": "fb135c1801dd3fd1b5a13c193ff54b0d4bc147226e3e70cddee779c17ed8086d",
+      "SKILL.md": "dae73637432dbd653abc927d78175d179cf26de62be1f027a7b853446d527acb",
+      "LICENSE": "f71cc2b0a8199ff748415642e1006c760f017d8defbc29237ce43ae1e8fa8197"
+    },
+    "omitted": []
+  },
+  "systematic-debugging": {
+    "repo": "obra/superpowers",
+    "path": "skills/systematic-debugging",
+    "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "condition-based-waiting.md": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+      "CREATION-LOG.md": "c24733a5b1821bd6bed1fc950261f0b9f4e90097e0bbb96459d8179713730789",
+      "defense-in-depth.md": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+      "root-cause-tracing.md": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8",
+      "SKILL.md": "7596d378f5f761a43ea491c64e80d85c7a475ebe5c42b89b802c89a803ac1e0f",
+      "test-academic.md": "fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+      "test-pressure-1.md": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+      "test-pressure-2.md": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+      "test-pressure-3.md": "96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708",
+      "LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+    },
+    "omitted": [
+      "condition-based-waiting-example.ts",
+      "find-polluter.sh"
+    ]
+  },
+  "verification-before-completion": {
+    "repo": "obra/superpowers",
+    "path": "skills/verification-before-completion",
+    "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "SKILL.md": "fa2fab6d10c46ff75bf06371569f4a65c621debe5f6b39412241844d754cc00c",
+      "LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+    },
+    "omitted": []
+  },
+  "security-threat-model": {
+    "repo": "openai/skills",
+    "path": "skills/.curated/security-threat-model",
+    "sha": "49f948faa9258a0c61caceaf225e179651397431",
+    "spdx": "Apache-2.0",
+    "license_file": "skills/.curated/security-threat-model/LICENSE.txt",
+    "mode": "include",
+    "files": {
+      "references/prompt-template.md": "81a59aa3fb3ac3a739d6a26ab38e4015965f215581ee54becef21a2b121ec29b",
+      "references/security-controls-and-assets.md": "d536cfa9acad2523dc39134bcf33b9566c29dd9a57b407cbc9901637230c6b98",
+      "SKILL.md": "bcc8a36292c19fe0544c901ffed2676058448e469ddfc2546ad60fbf0a47357a",
+      "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    "omitted": [
+      "agents/openai.yaml"
+    ]
+  },
+  "security-best-practices": {
+    "repo": "openai/skills",
+    "path": "skills/.curated/security-best-practices",
+    "sha": "49f948faa9258a0c61caceaf225e179651397431",
+    "spdx": "Apache-2.0",
+    "license_file": "skills/.curated/security-best-practices/LICENSE.txt",
+    "mode": "include",
+    "files": {
+      "references/golang-general-backend-security.md": "a73c47c34497b120672d48411fe51dc90d426a571801a0b3f649e2ce4ec658b4",
+      "references/javascript-express-web-server-security.md": "427835cbb5be7ba96172ea6ca9af80ddd4419c833e9ebf870996740c80d8406c",
+      "references/javascript-general-web-frontend-security.md": "3a7bc7b3f6e7ff043db9dbaa8933894d7a19d987d0607e4ddae5d70184a63d63",
+      "references/javascript-jquery-web-frontend-security.md": "bcbad2fa6c2a02709e47e889e70102c76886bf36bc798624d27db570eccf40da",
+      "references/javascript-typescript-nextjs-web-server-security.md": "71c773f7a97ce60c853adfa100b3d88b3b7bc4c6b8acaef1432ffabd923ee182",
+      "references/javascript-typescript-react-web-frontend-security.md": "d3030c0f24bddb56b9bbb91bbec1ee49eb7778bce4d3e0297b2641b2fc6b0d9c",
+      "references/javascript-typescript-vue-web-frontend-security.md": "77c6a747f9f17e3df03aad0fcb20d99ac7898001b81aef8b80908e45ac14a688",
+      "references/python-django-web-server-security.md": "4fb69b5d45f10e588d1a8c35cdc5f59e18910f6b46a93e2d342d90f286f8dfd2",
+      "references/python-fastapi-web-server-security.md": "7383c7f4fc271190b05e562ada7e825982a2c76b6c79a9f95a1da7687b65a616",
+      "references/python-flask-web-server-security.md": "9606d69190c04c167fdeac57e61297547a57b0542fd89dede36f355970446929",
+      "SKILL.md": "554eba37d56af7760e44a3a585890c718c5ca33d222dfcc668fd7093de8ff589",
+      "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    "omitted": [
+      "agents/openai.yaml"
+    ]
+  },
+  "gh-fix-ci": {
+    "repo": "openai/skills",
+    "path": "skills/.curated/gh-fix-ci",
+    "sha": "49f948faa9258a0c61caceaf225e179651397431",
+    "spdx": "Apache-2.0",
+    "license_file": "skills/.curated/gh-fix-ci/LICENSE.txt",
+    "mode": "adapt",
+    "files": {
+      "SKILL.md": "5923fd8962b9345f493c9f2c04ed0771761f97e0921f23085adfcff40f7d4ebd",
+      "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    "omitted": [
+      "agents/openai.yaml",
+      "scripts/inspect_pr_checks.py"
+    ]
+  },
+  "code-review": {
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/code-review",
+    "sha": "49dd158d1076134a641b33efb035946536778336",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "SKILL.md": "8c979004a52848ed8f28e8839ad89feb829a676648ce48d8f9ebeb3fe67c46df",
+      "LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    "omitted": [
+      "agents/openai.yaml"
+    ]
+  },
+  "grill-me": {
+    "repo": "mattpocock/skills",
+    "path": "skills/productivity/grill-me",
+    "sha": "49dd158d1076134a641b33efb035946536778336",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "SKILL.md": "82f518d213d1e4e446d72ee32dffb16ecc8e840327f78678ce1c30b00b1b2b90",
+      "LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    "omitted": [
+      "agents/openai.yaml"
+    ]
+  },
+  "codebase-design": {
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/codebase-design",
+    "sha": "49dd158d1076134a641b33efb035946536778336",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "DEEPENING.md": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1",
+      "DESIGN-IT-TWICE.md": "52b52e75655a27aea59c6966b410bac82448968ad46ef1ebb9f07c274e3ae010",
+      "SKILL.md": "23f2249f83b7c2dd97285706745b48380d25b2ddec0ba3154e87ac722b2486f3",
+      "LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    "omitted": [
+      "agents/openai.yaml"
+    ]
+  },
+  "improve-codebase-architecture": {
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/improve-codebase-architecture",
+    "sha": "49dd158d1076134a641b33efb035946536778336",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "HTML-REPORT.md": "581e8bb5a521e46bbda8ca7e19b15948bed882187108092ebb90c62513b77528",
+      "SKILL.md": "1a01b95bce56de81cc5a5702425357932d241abafe7285669b78154465a08024",
+      "LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    "omitted": [
+      "agents/openai.yaml"
+    ]
+  },
+  "break-ui": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/break-ui",
+    "sha": "2d228630ba1446365f614a108cb8252f1feda202",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "CATALOG.md": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15",
+      "SKILL.md": "7f9259ae23a1e6657e74f6eef28a6db658aa8d15e0ecac8f9767106c832ce90b",
+      "LICENSE": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    "omitted": []
+  },
+  "mobile-native": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/mobile-native",
+    "sha": "2d228630ba1446365f614a108cb8252f1feda202",
+    "spdx": "MIT",
+    "license_file": "LICENSE",
+    "mode": "include",
+    "files": {
+      "SKILL.md": "a41c86a107e32e111d592024195f961eaa12a23637c43bf5d041e1692f43afd9",
+      "LICENSE": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    "omitted": []
+  },
+  "frontend-design": {
+    "repo": "anthropics/skills",
+    "path": "skills/frontend-design",
+    "sha": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "spdx": "Apache-2.0",
+    "license_file": "skills/frontend-design/LICENSE.txt",
+    "mode": "include",
+    "files": {
+      "SKILL.md": "7248e07304b4b34f3c52b2924d56d0fa42e63f04b87409f0f7c222ae04b4e7ec",
+      "LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    "omitted": []
+  },
+  "mcp-builder": {
+    "repo": "anthropics/skills",
+    "path": "skills/mcp-builder",
+    "sha": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "spdx": "Apache-2.0",
+    "license_file": "skills/mcp-builder/LICENSE.txt",
+    "mode": "include",
+    "files": {
+      "reference/evaluation.md": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+      "reference/mcp_best_practices.md": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+      "reference/node_mcp_server.md": "c3ba35a4f599dd53be9c6555ae72c19a7bf412cd5426576c2c08d42755482c66",
+      "reference/python_mcp_server.md": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+      "SKILL.md": "0eb994b614035c7b2931f6ea4788b9c7d69f68556836cbc3a0ed4d3167d95f62",
+      "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+    },
+    "omitted": [
+      "scripts/connections.py",
+      "scripts/evaluation.py",
+      "scripts/example_evaluation.xml",
+      "scripts/requirements.txt"
+    ]
+  },
+  "pdf": {
+    "repo": "openai/skills",
+    "path": "skills/.curated/pdf",
+    "sha": "49f948faa9258a0c61caceaf225e179651397431",
+    "spdx": "Apache-2.0",
+    "license_file": "skills/.curated/pdf/LICENSE.txt",
+    "mode": "adapt",
+    "files": {
+      "SKILL.md": "aff15f99601260604d6e1f841676b80634f87d90c842815b6063e5f7dc07deab",
+      "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    "omitted": [
+      "agents/openai.yaml"
+    ]
+  }
+}

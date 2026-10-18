@@ -1,0 +1,40 @@
+{
+  "id": "break-ui",
+  "title": {
+    "pt-BR": "Quebrar a UI",
+    "en": "Break the UI"
+  },
+  "summary": {
+    "pt-BR": "Testa a interface com dados de pior caso: nomes longos, acentos, zero itens.",
+    "en": "Stress the UI with worst-case data: long names, non-Latin text, zero items."
+  },
+  "category": "testing-quality",
+  "categories_secondary": [
+    "design-media",
+    "sites-frontend"
+  ],
+  "tags": [
+    "ui",
+    "edge-cases",
+    "i18n",
+    "worst-case-data"
+  ],
+  "featured": false,
+  "license": "MIT",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/break-ui",
+    "sha": "2d228630ba1446365f614a108cb8252f1feda202",
+    "license": "MIT",
+    "url": "https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/break-ui",
+    "stars": 47045,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

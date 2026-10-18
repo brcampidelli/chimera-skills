@@ -1,0 +1,38 @@
+{
+  "id": "gh-fix-ci",
+  "title": {
+    "pt-BR": "Corrigir CI do GitHub",
+    "en": "Fix GitHub CI"
+  },
+  "summary": {
+    "pt-BR": "Diagnosticar checks do GitHub Actions com o gh, propor plano e corrigir após aprovação.",
+    "en": "Diagnose GitHub Actions checks with gh, propose a plan and fix after approval."
+  },
+  "category": "pipelines-jobs",
+  "categories_secondary": [
+    "pull-requests"
+  ],
+  "tags": [
+    "github-actions",
+    "ci",
+    "gh"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "adapt",
+  "executes": {
+    "pt-BR": "Instrui o agente a rodar comandos de leitura do gh (rede, autenticação do usuário).",
+    "en": "Tells the agent to run read-only gh commands (network, user's auth)."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "openai/skills",
+    "path": "skills/.curated/gh-fix-ci",
+    "sha": "49f948faa9258a0c61caceaf225e179651397431",
+    "license": "Apache-2.0",
+    "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/gh-fix-ci",
+    "stars": 28129,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "systematic-debugging",
+  "title": {
+    "pt-BR": "Depuração sistemática",
+    "en": "Systematic debugging"
+  },
+  "summary": {
+    "pt-BR": "Achar a causa raiz antes de propor correção, em fases.",
+    "en": "Find the root cause before proposing a fix, in phases."
+  },
+  "category": "engineering",
+  "categories_secondary": [
+    "testing-quality"
+  ],
+  "tags": [
+    "debugging",
+    "root-cause",
+    "tests"
+  ],
+  "featured": true,
+  "license": "MIT",
+  "mode": "include",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": {
+    "repo": "obra/superpowers",
+    "path": "skills/systematic-debugging",
+    "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "license": "MIT",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging",
+    "stars": 301208,
+    "stars_read_at": "2026-10-17"
+  },
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}
