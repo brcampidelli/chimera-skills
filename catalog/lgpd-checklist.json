@@ -1,0 +1,33 @@
+{
+  "id": "lgpd-checklist",
+  "title": {
+    "pt-BR": "Checklist de LGPD",
+    "en": "LGPD checklist"
+  },
+  "summary": {
+    "pt-BR": "Mapeamento, base legal, direitos do titular, retenção e incidentes.",
+    "en": "Data mapping, legal basis, data-subject rights, retention and incidents."
+  },
+  "category": "security",
+  "categories_secondary": [
+    "product",
+    "operations"
+  ],
+  "tags": [
+    "lgpd",
+    "privacidade",
+    "dados-pessoais",
+    "anpd",
+    "compliance"
+  ],
+  "featured": true,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "chimera-skill-authoring",
+  "title": {
+    "pt-BR": "Escrever skills para o Chimera",
+    "en": "Authoring skills for Chimera"
+  },
+  "summary": {
+    "pt-BR": "Frontmatter, divulgação progressiva, cartão e regras de segurança do catálogo.",
+    "en": "Frontmatter, progressive disclosure, card format and catalogue safety rules."
+  },
+  "category": "ai-models-agents",
+  "categories_secondary": [
+    "reference-docs"
+  ],
+  "tags": [
+    "skills",
+    "skill-md",
+    "chimera",
+    "agentes",
+    "progressive-disclosure"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

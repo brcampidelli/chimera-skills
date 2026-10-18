@@ -1,0 +1,34 @@
+{
+  "id": "banco-de-questoes-fsrs",
+  "title": {
+    "pt-BR": "Banco de questões + FSRS",
+    "en": "Question bank + FSRS"
+  },
+  "summary": {
+    "pt-BR": "Qualidade de questões, deduplicação e repetição espaçada com FSRS.",
+    "en": "Question quality, deduplication and FSRS spaced repetition."
+  },
+  "category": "education",
+  "categories_secondary": [
+    "product",
+    "databases"
+  ],
+  "tags": [
+    "edtech",
+    "questoes",
+    "concursos",
+    "fsrs",
+    "repeticao-espacada",
+    "quiz"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "redacao-pt-br",
+  "title": {
+    "pt-BR": "Redação em PT-BR",
+    "en": "Brazilian Portuguese writing"
+  },
+  "summary": {
+    "pt-BR": "Escrever e revisar em português brasileiro natural, com padrões de número, data e moeda.",
+    "en": "Write and edit natural Brazilian Portuguese with local number, date and currency formats."
+  },
+  "category": "files-documents",
+  "categories_secondary": [
+    "marketing",
+    "email-messaging"
+  ],
+  "tags": [
+    "pt-br",
+    "redacao",
+    "revisao",
+    "copy",
+    "traducao",
+    "writing"
+  ],
+  "featured": true,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

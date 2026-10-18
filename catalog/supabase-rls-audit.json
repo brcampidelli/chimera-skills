@@ -1,0 +1,33 @@
+{
+  "id": "supabase-rls-audit",
+  "title": {
+    "pt-BR": "Auditoria de RLS (Supabase)",
+    "en": "Supabase RLS audit"
+  },
+  "summary": {
+    "pt-BR": "Auditoria somente leitura de RLS e privilégios, com relatório e migração proposta.",
+    "en": "Read-only RLS and privilege audit with a report and a proposed migration."
+  },
+  "category": "security",
+  "categories_secondary": [
+    "databases"
+  ],
+  "tags": [
+    "supabase",
+    "postgres",
+    "rls",
+    "auditoria",
+    "idor",
+    "privilegios"
+  ],
+  "featured": true,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Instrui consultas SQL de leitura; nunca altera o banco.",
+    "en": "Guides read-only SQL queries; never changes the database."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

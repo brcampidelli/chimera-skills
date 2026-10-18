@@ -1,0 +1,32 @@
+{
+  "id": "trading-risk-rules",
+  "title": {
+    "pt-BR": "Regras de risco em trading",
+    "en": "Trading risk rules"
+  },
+  "summary": {
+    "pt-BR": "2% por operação, 5% por dia, stop sempre, 3 perdas param — verificação, não execução.",
+    "en": "2% per trade, 5% per day, always a stop, 3 losses stop — checks, never executes."
+  },
+  "category": "finance-payments",
+  "categories_secondary": [
+    "operations"
+  ],
+  "tags": [
+    "trading",
+    "risco",
+    "position-sizing",
+    "stop-loss",
+    "diario-de-trades"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

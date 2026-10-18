@@ -1,0 +1,34 @@
+{
+  "id": "vercel-deploy-seguro",
+  "title": {
+    "pt-BR": "Deploy seguro na Vercel",
+    "en": "Safe Vercel deploy"
+  },
+  "summary": {
+    "pt-BR": "Integração Git ou CLI oficial fixada; código só vai para a Vercel do dono.",
+    "en": "Git integration or pinned official CLI; code only goes to the owner's Vercel."
+  },
+  "category": "servers-cloud",
+  "categories_secondary": [
+    "pipelines-jobs",
+    "security"
+  ],
+  "tags": [
+    "vercel",
+    "deploy",
+    "nextjs",
+    "preview",
+    "rollback",
+    "ci"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Instrui o uso da CLI oficial da Vercel (rede, token do dono); produção só com aprovação.",
+    "en": "Guides the official Vercel CLI (network, owner's token); production only with approval."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

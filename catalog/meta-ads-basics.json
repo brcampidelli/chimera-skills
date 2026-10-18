@@ -1,0 +1,33 @@
+{
+  "id": "meta-ads-basics",
+  "title": {
+    "pt-BR": "Meta Ads — fundamentos",
+    "en": "Meta Ads basics"
+  },
+  "summary": {
+    "pt-BR": "Ler e diagnosticar campanhas, rastreamento com CAPI e relatório pela API em modo leitura.",
+    "en": "Read and diagnose campaigns, CAPI tracking and read-only API reporting."
+  },
+  "category": "marketing",
+  "categories_secondary": [
+    "apis-integrations"
+  ],
+  "tags": [
+    "meta-ads",
+    "facebook-ads",
+    "instagram",
+    "marketing-api",
+    "capi",
+    "pixel"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

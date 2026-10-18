@@ -1,0 +1,35 @@
+{
+  "id": "pix-e-nfe",
+  "title": {
+    "pt-BR": "Pix e nota fiscal",
+    "en": "Pix and invoices (Brazil)"
+  },
+  "summary": {
+    "pt-BR": "Cobrança Pix via PSP, conciliação e qual nota emitir por emissor homologado.",
+    "en": "Pix collection via PSP, reconciliation, and which tax invoice to issue through an accredited issuer."
+  },
+  "category": "finance-payments",
+  "categories_secondary": [
+    "apis-integrations",
+    "operations"
+  ],
+  "tags": [
+    "pix",
+    "nf-e",
+    "nfs-e",
+    "nfc-e",
+    "pagamentos",
+    "fiscal",
+    "brasil"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

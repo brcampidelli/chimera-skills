@@ -1,0 +1,30 @@
+{
+  "id": "docx-builder",
+  "title": {
+    "pt-BR": "Documentos Word (.docx)",
+    "en": "Word documents (.docx)"
+  },
+  "summary": {
+    "pt-BR": "Criar e editar .docx com python-docx.",
+    "en": "Create and edit .docx with python-docx."
+  },
+  "category": "files-documents",
+  "categories_secondary": [],
+  "tags": [
+    "docx",
+    "word",
+    "python-docx",
+    "documentos",
+    "relatorio"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

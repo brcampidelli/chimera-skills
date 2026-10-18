@@ -1,0 +1,34 @@
+{
+  "id": "whatsapp-cloud-api",
+  "title": {
+    "pt-BR": "WhatsApp Cloud API",
+    "en": "WhatsApp Cloud API"
+  },
+  "summary": {
+    "pt-BR": "API oficial: janela de 24 h, templates, opt-in, webhook assinado.",
+    "en": "Official API: 24-hour window, templates, opt-in, signed webhooks."
+  },
+  "category": "email-messaging",
+  "categories_secondary": [
+    "apis-integrations",
+    "marketing"
+  ],
+  "tags": [
+    "whatsapp",
+    "meta",
+    "cloud-api",
+    "webhooks",
+    "templates",
+    "chatbot"
+  ],
+  "featured": true,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}

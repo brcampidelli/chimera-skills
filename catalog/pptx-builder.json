@@ -1,0 +1,32 @@
+{
+  "id": "pptx-builder",
+  "title": {
+    "pt-BR": "Apresentações (.pptx)",
+    "en": "Presentations (.pptx)"
+  },
+  "summary": {
+    "pt-BR": "Criar e editar .pptx com python-pptx e regras de legibilidade.",
+    "en": "Create and edit .pptx with python-pptx and legibility rules."
+  },
+  "category": "files-documents",
+  "categories_secondary": [
+    "design-media"
+  ],
+  "tags": [
+    "pptx",
+    "powerpoint",
+    "python-pptx",
+    "slides",
+    "apresentacao"
+  ],
+  "featured": false,
+  "license": "Apache-2.0",
+  "mode": "own",
+  "executes": {
+    "pt-BR": "Só instruções; nada executa sozinho.",
+    "en": "Instructions only; nothing runs by itself."
+  },
+  "ships_scripts": false,
+  "source": null,
+  "import_state": "pending+tainted (Chimera holds every catalogue skill for human approval)"
+}
