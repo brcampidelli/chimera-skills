@@ -1,0 +1,60 @@
+chimera-skills
+Copyright 2026 The Chimera Agent Authors
+
+Original content in this repository is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository also redistributes third-party skills. Each one keeps its own licence file inside its
+folder (skills/<id>/LICENSE or LICENSE.txt), is pinned to the upstream commit recorded in
+upstream.lock, and states its modifications in the `metadata.changes` field of its SKILL.md.
+Common modification for every copy: the YAML frontmatter was rewritten (license set to an SPDX id;
+metadata, stage and topic added) and executable or non-markdown files were left out. Bodies are
+verbatim unless the skill is marked `mode: adapt`, in which case the edited lines are described in
+`metadata.changes` and in reviews/<id>.md.
+
+-------------------------------------------------------------------------------
+MIT License — Copyright (c) 2026 Supabase
+https://github.com/supabase/agent-skills @ c9be0e931b7930f7d02126d04774d904c381e7d7
+  supabase                          (skills/supabase)
+  supabase-postgres-best-practices  (skills/supabase-postgres-best-practices)
+
+MIT License — Copyright (c) 2024–2025 Stripe
+https://github.com/stripe/ai @ c1f5b0826f3f33d7e1cc7eff5e5e6cd42749808b
+  stripe-best-practices             (providers/claude/plugin/skills/stripe-best-practices) — adapted
+
+MIT License — Copyright (c) 2026 Resend
+https://github.com/resend/resend-skills @ b2ae7b1798b70134faf679f35fc05b4331462988
+  resend                            (skills/resend)
+  email-best-practices              (skills/email-best-practices)
+
+MIT License — Copyright (c) 2025 Jesse Vincent
+https://github.com/obra/superpowers @ bb92a77741419a4ab5f06e711a283343f1ada0c3
+  systematic-debugging              (skills/systematic-debugging)
+  verification-before-completion    (skills/verification-before-completion)
+
+MIT License — Copyright (c) 2026 Matt Pocock
+https://github.com/mattpocock/skills @ 49dd158d1076134a641b33efb035946536778336
+  code-review                       (skills/engineering/code-review)
+  grill-me                          (skills/productivity/grill-me)
+  codebase-design                   (skills/engineering/codebase-design)
+  improve-codebase-architecture     (skills/engineering/improve-codebase-architecture)
+
+MIT License — Copyright (c) 2026 Emil Kowalski
+https://github.com/emilkowalski/skills @ 2d228630ba1446365f614a108cb8252f1feda202
+  break-ui                          (skills/break-ui)
+  mobile-native                     (skills/mobile-native)
+
+Apache License 2.0 — OpenAI (per-folder LICENSE.txt; the repository has no root licence)
+https://github.com/openai/skills @ 49f948faa9258a0c61caceaf225e179651397431
+  security-threat-model             (skills/.curated/security-threat-model)
+  security-best-practices           (skills/.curated/security-best-practices)
+  gh-fix-ci                         (skills/.curated/gh-fix-ci) — adapted
+  pdf                               (skills/.curated/pdf) — adapted
+
+Apache License 2.0 — Anthropic (per-folder LICENSE.txt; the repository has no root licence)
+https://github.com/anthropics/skills @ dbd4588f9e1033efb41dad4bef2f7947c8993d44
+  frontend-design                   (skills/frontend-design)
+  mcp-builder                       (skills/mcp-builder)
+Only these two Apache-2.0 folders were read and copied. Anthropic's docx, pdf, pptx and xlsx skills
+are proprietary and were neither read nor used; docx-builder, xlsx-builder and pptx-builder here are
+original work based on the public documentation of python-docx, openpyxl and python-pptx.
+-------------------------------------------------------------------------------

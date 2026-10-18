@@ -1,0 +1,2 @@
+# Content hashes in upstream.lock and reviews/ are over exact bytes: never convert line endings.
+* -text
