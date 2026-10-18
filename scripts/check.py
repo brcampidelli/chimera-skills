@@ -137,8 +137,8 @@ class Checker:
         self.errors: list[str] = []
         self.require_chimera = require_chimera
         self.categories = {c["id"] for c in yaml.safe_load((ROOT / "categories.yaml").read_text("utf-8"))["categories"]}
-        if len(self.categories) != 26:
-            self.err("categories.yaml", f"expected the 26 canonical categories, found {len(self.categories)}")
+        if len(self.categories) != 27:
+            self.err("categories.yaml", f"expected the 27 canonical categories, found {len(self.categories)}")
         self.lock: dict[str, dict] = json.loads((ROOT / "upstream.lock").read_text("utf-8"))
         self.notice = (ROOT / "NOTICE").read_text("utf-8")
         self.exceptions = json.loads((ROOT / "security-exceptions.json").read_text("utf-8"))["exceptions"]
@@ -220,7 +220,7 @@ class Checker:
             self.err(where, f"metadata.mode must be one of {sorted(MODES)}")
         cat = meta.get("category")
         if cat not in self.categories:
-            self.err(where, f"metadata.category {cat!r} is not one of the 26 categories")
+            self.err(where, f"metadata.category {cat!r} is not one of the 27 categories")
         sec = csv_list(meta.get("categories_secondary"))
         if len(sec) > 3:
             self.err(where, "at most 3 secondary categories")

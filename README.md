@@ -38,7 +38,7 @@ cada uma com o próprio LICENSE, fixada num commit e revisada.
 - **Curadoria não é aprovação.** O Chimera importa toda skill daqui como **pendente e não confiável**;
   quem liga é você.
 
-Categorias: as 26 de [`categories.yaml`](categories.yaml), compartilhadas com `chimera-plugins` e
+Categorias: as 27 de [`categories.yaml`](categories.yaml), compartilhadas com `chimera-plugins` e
 `chimera-connectors`. Metadados de vitrine em [`catalog/`](catalog/).
 
 ## Validar
